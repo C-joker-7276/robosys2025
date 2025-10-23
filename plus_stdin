@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText:2025 C-joker
+import sys
+
+nums =[float(e) for e in sys.stdin]
+print(sum(nums))
