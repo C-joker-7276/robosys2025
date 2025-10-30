@@ -3,5 +3,11 @@
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
 
-nums =[float(e) for e in sys.stdin]
-print(sum(nums))
+ans = 0
+for line in sys.stdin:
+    try:
+        ans += int(line)
+    except:
+        ans += float(line)
+
+print(ans)
