@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 #bashrcの中に関数化して書かないと動かないよ
-
+#back(){ #コピペ後ここを有効化
 #初期定義
 num=$1
 result=""
@@ -22,3 +22,4 @@ cd "$result" || {
 	echo "Failed,move over root"
 	exit 1
 }
+#} #コピペ後ここを有効化
