@@ -8,7 +8,7 @@ for lecture of robosys at 2025
 # plusコマンド
 ![test](https://github.com/C-joker-7276/robosys2025/actions/workflows/test.yml/badge.svg)
 
-#backコマンド
+# backコマンド
 ![back](https://github.com/C-joker-7276/robosys2025/actions/workflows/test.yml/badge.svg)
 - このプログラムは提出用であり、個人利用するのはお勧めしません。 ~~動かないからね~~
 - ~./bashrcに関数としてコピペすると使えるようになります。
