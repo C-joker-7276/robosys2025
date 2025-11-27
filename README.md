@@ -8,6 +8,15 @@ for lecture of robosys at 2025
 # plusコマンド
 ![test](https://github.com/C-joker-7276/robosys2025/actions/workflows/test.yml/badge.svg)
 
+#backコマンド
+![back](https://github.com/C-joker-7276/robosys2025/actions/workflows/test.yml/badge.svg)
+- このプログラムは提出用であり、個人利用するのはお勧めしません。 ~~動かないからね~~
+- ~./bashrcに関数としてコピペすると使えるようになります。
+- 使い方
+   - backコマンドに自然数を一つ渡すと、その数だけディレクトリを戻ってくれます。
+    - それ以外の数字の場合は動きません。自然数ではないといって終了します。
+    - rootよりも多く戻ろうとした場合、rootで止まります。
+
 ## 必要なソフトウェア
 - python
   - テスト済みバージョン:3.7~3.10
