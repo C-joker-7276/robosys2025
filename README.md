@@ -10,7 +10,7 @@ for lecture of robosys at 2025
 
 # backコマンド
 ![back](https://github.com/C-joker-7276/robosys2025/actions/workflows/test.yml/badge.svg)
-- このプログラムは提出用であり、個人利用するのはお勧めしません。 ~~動かないからね~~
+- このプログラムは提出用であり、個人利用するのはお勧めしません。 ~~そのままだと動かないからね~~
 - ~./bashrcに関数としてコピペすると使えるようになります。
 - 使い方
    - backコマンドに自然数を一つ渡すと、その数だけディレクトリを戻ってくれます。
@@ -23,5 +23,5 @@ for lecture of robosys at 2025
 
 ## テスト環境
 - Ubuntu 22.04.5 LTS
-
+# 　
 - © 2025 C-joker
