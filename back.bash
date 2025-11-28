@@ -11,7 +11,7 @@ result=""
 #入力チェック(正の整数以外だと困るため)
 if ! [[ "$num" =~ ^[0-9]+$ ]] || [ "$num" -le 0 ]; then
 	echo "error,this is not natural number"
-	exit 1
+	return 1
 fi
 #入力された数字分、"../"を追加する
 for ((i=1; i<=num; i++)); do
@@ -20,6 +20,6 @@ done
 #戻る、もしrootを超えて戻ろうとした場合は１を返す
 cd "$result" || {
 	echo "Failed,move over root"
-	exit 1
+	return 1
 }
 #} #コピペ後ここを有効化
