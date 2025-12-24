@@ -1,16 +1,15 @@
 # robosys2025
 for lecture of robosys at 2025
 
-- このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
-- このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
-   - [ryuichiueda/my_slides_robosys_2025](https://ryuichiueda.github.io/slides_marp/robosys2025/lesson4.html#1)
-
-# plusコマンド
+# bc.bashコマンド
 ![test](https://github.com/C-joker-7276/robosys2025/actions/workflows/test.yml/badge.svg)
+- このプログラムは提出用であり、不備があるかもしれません。
+- 日付を入力するとそれが何日後なのかが返ってきます。
+### 使い方
+- コマンドの後ろにYYYYMMDDになるように数字を渡します。
 
 # backコマンド
-![back](https://github.com/C-joker-7276/robosys2025/actions/workflows/test.yml/badge.svg)
-- このプログラムは提出用であり、利用するのはお勧めしません。 ~~そのままだと動かないからね~~
+- このプログラムは前に作ったやつで、どっかに置いときたいだけなので、利用するのはお勧めしません。 ~~そのままだと動かないからね~~
 - ~./bashrcに関数としてコピペすると使えるようになります。
 　コピペした後、back(){と}を有効化するのを忘れないように。
 - 使い方
@@ -24,5 +23,8 @@ for lecture of robosys at 2025
 
 ## テスト環境
 - Ubuntu 22.04.5 LTS
-# 　
+#
+- このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
+- このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
+   - [ryuichiueda/my_slides_robosys_2025](https://ryuichiueda.github.io/slides_marp/robosys2025/lesson4.html#1) 　
 - © 2025 C-joker
