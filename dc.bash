@@ -2,7 +2,7 @@
 # SPDX- SPDX-FileCopyrightText: 2025 C-joker
 # SPDX-License-Identifier: BSD-3-Clause
 
-if  ! echo "$1"| grep -qE '^[0-9]{8}$' ; then
+if ! echo "$1" | grep -qE '^[0-9]{8}$'; then
 	echo "please write YYYYMMDD"
 	exit 1
 fi
