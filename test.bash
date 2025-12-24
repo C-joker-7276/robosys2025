@@ -6,7 +6,7 @@ set -e
 while IFS=: read -r input expected; do
     echo ">>> Testing $input"
 
-    output=$(./days.sh "$input" 2>&1 || true)
+    output=$(./dc.bash "$input" 2>&1 || true)
 
     if [[ "$expected" == "ERR" ]]; then
         if [[ "$output" == *"please write"* ]]; then
