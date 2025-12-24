@@ -28,4 +28,5 @@ while IFS=: read -r input expected; do
             exit 1
         fi
     fi
-done < test_cases.txt"
+done < test_cases.txt
+
