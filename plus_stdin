@@ -1,7 +1,0 @@
-#!/usr/bin/python3
-# SPDX-FileCopyrightText: 2025 C-joker
-# SPDX-License-Identifier: BSD-3-Clause
-import sys
-
-nums =[float(e) for e in sys.stdin]
-print(sum(nums))
